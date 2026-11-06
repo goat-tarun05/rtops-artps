@@ -1,0 +1,340 @@
+{
+ "wall_s": 9.540887594223022,
+ "pointing": [
+  {
+   "ob": "PR1",
+   "t0": 1794714000.0,
+   "t1": 1794714813.800002,
+   "n_meas": 22,
+   "rms_resid_before_deg": 0.32730766629793356,
+   "rms_resid_after_fit_deg": 0.005461066425527451,
+   "params_before": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "params_fit": [
+    0.3698913306756688,
+    -0.21182114817989303,
+    0.05379174182242605,
+    0.08831847444695493,
+    -0.14652280527565248
+   ],
+   "params_err": [
+    0.006447224436745538,
+    0.00428535938697421,
+    0.007167239733096959,
+    0.004245824242816853,
+    0.00408131279301182
+   ],
+   "map_rms_true_before_deg": 0.38403667322343377,
+   "map_rms_true_after_deg": 0.015718659317450315,
+   "applied": true
+  },
+  {
+   "ob": "PR2",
+   "t0": 1794765900.0,
+   "t1": 1794766468.4000015,
+   "n_meas": 16,
+   "rms_resid_before_deg": 0.01351139967031441,
+   "rms_resid_after_fit_deg": 0.006759938367688762,
+   "params_before": [
+    0.3698913306756688,
+    -0.21182114817989303,
+    0.05379174182242605,
+    0.08831847444695493,
+    -0.14652280527565248
+   ],
+   "params_fit": [
+    0.38246298101517134,
+    -0.20706939013583606,
+    0.06082986599407279,
+    0.09577187759742417,
+    -0.1529398943008159
+   ],
+   "params_err": [
+    0.024978961391950653,
+    0.005790468967300311,
+    0.021637920171258006,
+    0.005582286588100901,
+    0.0064583614216739485
+   ],
+   "map_rms_true_before_deg": 0.015718659317450315,
+   "map_rms_true_after_deg": 0.015318847768256729,
+   "applied": false
+  }
+ ],
+ "tracking": [
+  {
+   "ob": "SAT1",
+   "label": "track STARLINK-SIM-1049",
+   "rms_true_deg": 0.19213102718950556,
+   "p95_true_deg": 0.255291926944246,
+   "rms_following_deg": 0.0631905476142466,
+   "n": 2450
+  },
+  {
+   "ob": "HITRK",
+   "label": "M31 nod",
+   "rms_true_deg": 0.025006061734899405,
+   "p95_true_deg": 0.04151044379705588,
+   "rms_following_deg": 0.0015195039138625474,
+   "n": 36300
+  },
+  {
+   "ob": "HITRK",
+   "label": "M31 nod",
+   "rms_true_deg": 0.024766236268774597,
+   "p95_true_deg": 0.03738122706251204,
+   "rms_following_deg": 0.0013883274647616488,
+   "n": 37800
+  }
+ ],
+ "stow": [
+  {
+   "t0": 1794744792.0,
+   "t1": 1794746032.0,
+   "reason": "wind during HITRK"
+  }
+ ],
+ "ob_log": [
+  {
+   "id": "PR1",
+   "type": "pointing_run",
+   "t0": 1794714000.0,
+   "t1": 1794714813.800002,
+   "status": "DONE"
+  },
+  {
+   "id": "SOL1",
+   "type": "solar_drift",
+   "t0": 1794720692.0,
+   "t1": 1794724500.0,
+   "status": "DONE"
+  },
+  {
+   "id": "SOL2",
+   "type": "solar_drift",
+   "t0": 1794724904.0,
+   "t1": 1794728700.0,
+   "status": "DONE"
+  },
+  {
+   "id": "SAT1",
+   "type": "sat_track",
+   "t0": 1794729912.0,
+   "t1": 1794730500.0,
+   "status": "DONE"
+  },
+  {
+   "id": "HITRK",
+   "type": "hi_track_nod",
+   "t0": 1794740800.0,
+   "t1": 1794744792.0,
+   "status": "ABORTED_WIND",
+   "got_s": 3630.0,
+   "remaining_s": 5198.0
+  },
+  {
+   "id": "HITRK",
+   "type": "hi_track_nod",
+   "t0": 1794746132.0,
+   "t1": 1794750274.0,
+   "status": "DONE",
+   "got_s": 3780.0,
+   "remaining_s": 26.0
+  },
+  {
+   "id": "HIDFT",
+   "type": "hi_stare",
+   "t0": 1794750620.0,
+   "t1": 1794765240.0,
+   "status": "DONE",
+   "got_s": 14400.0,
+   "remaining_s": 0.0
+  },
+  {
+   "id": "PR2",
+   "type": "pointing_run",
+   "t0": 1794765900.0,
+   "t1": 1794766468.4000015,
+   "status": "DONE"
+  }
+ ],
+ "reduced": {
+  "hi": {
+   "tracked ON/OFF": {
+    "mode": "switch",
+    "beam_fwhm_deg": 9.849767692553108,
+    "n_on": 127,
+    "n_off": 120,
+    "effective_on_hours": 1.0583333333333333,
+    "off_separation_deg": 16.491136175394043,
+    "off_leakage": 0.00042135580413811134,
+    "vsys_helio_kms": -292.78374304130966,
+    "vsys_err_kms": 18.724560249313758,
+    "vsys_lsr_kms": -288.3845564850893,
+    "vrot_sini_kms": 243.02308293703433,
+    "vrot_err_kms": 20.405782811808976,
+    "width_kms": 486.04616587406866,
+    "rms_k": 0.009793043929658468,
+    "rms_predicted_k": 0.010843023296455414,
+    "rms_ratio": 0.9031654421382471,
+    "integrated_k_kms": 8.989628664493166,
+    "integrated_err_k_kms": 1.6104911178306778,
+    "int_ul3_k_kms": 4.831473353492033,
+    "int_ul3_jy_kms": 13726.435637695165,
+    "integrated_expected_k_kms": 11.052269307483781,
+    "integrated_ratio": 0.8133740152717824,
+    "line_snr": 5.581917568475723,
+    "ideal_line_snr": 14.867985842062806,
+    "fit_chi_per_dof": 1.0405402937936827,
+    "tsys_k": 101.49914657621633,
+    "fit_ranges_kms": [
+     [
+      -880.0,
+      -130.0
+     ],
+     [
+      60.0,
+      280.0
+     ]
+    ],
+    "doppler_corr_range_kms": [
+     -10.745937145443007,
+     -10.579441605485663
+    ],
+    "rfi_channels_flagged": 0,
+    "milky_way_residual_lsr_kms": -1.600813443779658,
+    "literature_vsys_helio_kms": -300.0,
+    "checks": {
+     "systemic velocity within 25 km/s of -300 (literature)": true,
+     "M31 line detected: integrated S/N >= 5": true,
+     "measured noise within 40 % of the radiometer prediction": true,
+     "Milky Way residual found near 0 km/s LSR and kept apart from M31": true,
+     "OFF position >= 1.5 beam widths from M31 (else leakage corrected)": true
+    },
+    "blocks": [
+     "HITRK",
+     "HITRK_r1"
+    ],
+    "mode_used": "switch",
+    "n_dumps": 247,
+    "origin": "SIM",
+    "on_source_hours": 1.0583333333333333
+   },
+   "fixed-dish drift": {
+    "mode": "drift",
+    "beam_fwhm_deg": 9.849767692553108,
+    "n_on": 74,
+    "n_off": 94,
+    "effective_on_hours": 0.6451630096177025,
+    "off_separation_deg": null,
+    "off_leakage": 0.0,
+    "vsys_helio_kms": -285.8920969078753,
+    "vsys_err_kms": 19.287125549506403,
+    "vsys_lsr_kms": -281.492910351655,
+    "vrot_sini_kms": 240.15247045033757,
+    "vrot_err_kms": 20.857712585653445,
+    "width_kms": 480.30494090067515,
+    "rms_k": 0.010379247305359189,
+    "rms_predicted_k": 0.012703707339970281,
+    "rms_ratio": 0.817025064226918,
+    "integrated_k_kms": 11.36040311191941,
+    "integrated_err_k_kms": 1.9630445050462206,
+    "int_ul3_k_kms": 5.889133515138662,
+    "int_ul3_jy_kms": 16731.29628230653,
+    "integrated_expected_k_kms": 11.052269307483781,
+    "integrated_ratio": 1.02787968659314,
+    "line_snr": 5.78713477087058,
+    "ideal_line_snr": 12.690304691577806,
+    "fit_chi_per_dof": 1.0,
+    "tsys_k": 102.25538795838226,
+    "fit_ranges_kms": [
+     [
+      -880.0,
+      -130.0
+     ],
+     [
+      60.0,
+      280.0
+     ]
+    ],
+    "doppler_corr_range_kms": [
+     -11.002545085191178,
+     -10.88619619479379
+    ],
+    "rfi_channels_flagged": 0,
+    "milky_way_residual_lsr_kms": -1.600813443779658,
+    "literature_vsys_helio_kms": -300.0,
+    "checks": {
+     "systemic velocity within 25 km/s of -300 (literature)": true,
+     "M31 line detected: integrated S/N >= 5": true,
+     "measured noise within 40 % of the radiometer prediction": true,
+     "Milky Way residual found near 0 km/s LSR and kept apart from M31": true
+    },
+    "blocks": [
+     "HIDFT"
+    ],
+    "mode_used": "drift",
+    "n_dumps": 240,
+    "origin": "SIM",
+    "on_source_hours": 4.0
+   }
+  },
+  "errors": {},
+  "solar": {
+   "y_factor": 3.180743253387018,
+   "t_rx_k": 118.39659119207107,
+   "t_sys_k": 128.39659119207107,
+   "sun_peak_k": 871.5788468562209,
+   "fwhm_deg": 1.328082923262121,
+   "fwhm_err_deg": 0.000671469635697745,
+   "fwhm_theory_deg": 1.2491666666666668,
+   "pointing_dx_sky_deg": 0.002996983734627281,
+   "pointing_dy_deg": -0.020704387829711256,
+   "pointing_err_deg": 0.00031227402412598997,
+   "transit_pred_utc": [
+    "2026-11-15T06:05:35.550",
+    "2026-11-15T07:15:52.550"
+   ],
+   "transit_obs_utc": [
+    "2026-11-15T06:05:35.550",
+    "2026-11-15T07:15:53.550"
+   ],
+   "transit_offset_s": [
+    0.0,
+    1.0
+   ],
+   "fit_rms_k": 1.5331435373618152,
+   "masked_samples": 0,
+   "pointing_systematic_floor_deg": 0.3,
+   "checks": {
+    "beam within 20% of 70 lambda/D": true,
+    "fit residual < 2% of Sun peak": true,
+    "pointing fit uncertainty < 0.1 deg (statistical; manual setting adds ~0.3 deg)": true
+   },
+   "blocks": [
+    "SOL1",
+    "SOL2"
+   ],
+   "origin": "SIM"
+  },
+  "sat": {
+   "name": "STARLINK-SIM-1049",
+   "block": "SAT1",
+   "max_el": 60.15765590666283,
+   "duration_s": 244.5,
+   "peak_k": 558.7222882049699,
+   "mean_eff": 0.937812463379443,
+   "time_above_half_s": 244.0,
+   "snr_peak": 119.4719519619333,
+   "noise_k": 4.676597971572378,
+   "fixed_beam_equiv_s": 1.8723462125141492,
+   "gain_k_per_count": 76.00829809924616,
+   "origin": "SIM"
+  }
+ }
+}

@@ -1,0 +1,138 @@
+constraints:
+  max_el: 85.0
+  min_el: 20.0
+  slew_margin_s: 120
+  sun_avoid_deg: 15.0
+  hi_min_el: 30.0
+hi:
+  bandwidth_mhz: 6.0
+  center_vhelio_kms: -300
+  correct_off_leakage: true
+  mode: switch
+  mw_mask_kms:
+  - -130
+  - 60
+  nchan: 8192
+  off_response_max: 0.005
+  off_window_hours: 4.0
+  on_response_min: 0.25
+  rest_mhz: 1420.40575
+  t_cold_k: 15.0
+  t_hot_k: 290.0
+  vrot_prior_kms:
+  - 245
+  - 25
+ku:
+  freq_ghz: 11.2
+  rest_unused: 0
+  t_cold_k: 10.0
+  t_hot_k: 290.0
+mount:
+  accel: 1.0
+  az_range:
+  - -90
+  - 450
+  cold_sky:
+    az: 0.0
+    el: 75.0
+  el_range:
+  - 10
+  - 88
+  enc_noise_deg: 0.001
+  enc_res_deg: 0.002
+  kp: 2.0
+  rate_hz: 10
+  settle_s: 2.0
+  settle_tol_deg: 0.05
+  stow:
+    az: 0.0
+    el: 88.0
+  tau_act: 0.25
+  vmax_az: 3.0
+  vmax_el: 2.0
+  wind_sigma_per_ms: 0.0025
+  wind_tau_s: 1.5
+observations:
+- deadline: '12:35'
+  earliest: '12:02'
+  id: PR1
+  params:
+    geo:
+    - 68
+    - 83
+    - 93
+    - 105
+    sun: 0
+    update_model: true
+  priority: 10
+  type: pointing_run
+- deadline: '13:40'
+  duration_min: 40
+  earliest: '12:35'
+  id: HITRK
+  min_duration_min: 10
+  params:
+    cycle_min: 5
+    dump_s: 30
+  priority: 7
+  type: hi_track_nod
+pointing_truth:
+- 0.35
+- -0.2
+- 0.08
+- 0.1
+- -0.15
+receiver:
+  drift_per_h: 0.01
+  gain_hi: 0.003
+  gain_ku: 0.0125
+  geo_beacon_k: 300.0
+  m31:
+    inc_deg: 77.0
+    vrot_kms: 235.0
+    vsys_helio_kms: -300.0
+  m31_flux_jy_kms: 31400.0
+  noise_rel_1s: 0.002
+  sun_flux_sfu: 280.0
+  sun_fwhm_deg: 0.45
+  t_atm_zenith: 6.0
+  t_rx_hi: 85.0
+  t_rx_ku: 120.0
+satellites:
+  alt_km: 550.0
+  catalogue_err_km: 2.0
+  inc_deg: 53.0
+  per_plane: 22
+  planes: 72
+  ref_range_km: 550.0
+  t_sat_k: 800.0
+session:
+  cal_interval_min: 60
+  date: '2026-11-15'
+  end: '13:45'
+  seed: 7
+  start: '12:00'
+site:
+  height_m: 268
+  lat_deg: 29.8649
+  lon_deg: 77.8966
+targets:
+  m31:
+    dec_deg: 41.269
+    ra_deg: 10.6847
+  m31_off:
+    dec_deg: 41.269
+    ra_deg: 32.6847
+telescope:
+  dish_m: 1.5
+  efficiency: 0.55
+  name: RT-1 (digital twin)
+weather:
+  base_ms: 4.0
+  gusts:
+  - end: '13:05'
+    speed: 13.0
+    start: '12:50'
+  resume_hold_min: 5
+  resume_limit_ms: 8.0
+  stow_limit_ms: 10.0

@@ -1,0 +1,188 @@
+site:
+  lat_deg: 29.8649
+  lon_deg: 77.8966
+  height_m: 268
+telescope:
+  dish_m: 1.5
+  efficiency: 0.55
+  name: RT-1 (digital twin)
+mount:
+  rate_hz: 10
+  kp: 2.0
+  accel: 1.0
+  tau_act: 0.25
+  vmax_az: 3.0
+  vmax_el: 2.0
+  az_range:
+  - -90
+  - 450
+  el_range:
+  - 10
+  - 88
+  enc_res_deg: 0.002
+  enc_noise_deg: 0.001
+  wind_sigma_per_ms: 0.0025
+  wind_tau_s: 1.5
+  settle_tol_deg: 0.05
+  settle_s: 2.0
+  stow:
+    az: 0.0
+    el: 88.0
+  cold_sky:
+    az: 0.0
+    el: 75.0
+ku:
+  freq_ghz: 11.2
+  rest_unused: 0
+  t_hot_k: 290.0
+  t_cold_k: 10.0
+hi:
+  mode: switch
+  rest_mhz: 1420.40575
+  bandwidth_mhz: 6.0
+  nchan: 8192
+  center_vhelio_kms: -300
+  t_hot_k: 290.0
+  t_cold_k: 15.0
+  on_response_min: 0.25
+  off_response_max: 0.005
+  correct_off_leakage: true
+  off_window_hours: 4.0
+  mw_mask_kms:
+  - -130
+  - 60
+  vrot_prior_kms:
+  - 245
+  - 25
+targets:
+  m31:
+    ra_deg: 10.6847
+    dec_deg: 41.269
+  m31_off:
+    ra_deg: 32.6847
+    dec_deg: 41.269
+receiver:
+  t_rx_ku: 120.0
+  t_rx_hi: 85.0
+  gain_ku: 0.0125
+  gain_hi: 0.003
+  noise_rel_1s: 0.002
+  drift_per_h: 0.01
+  t_atm_zenith: 6.0
+  sun_flux_sfu: 280.0
+  sun_fwhm_deg: 0.45
+  geo_beacon_k: 300.0
+  m31_flux_jy_kms: 31400.0
+  m31:
+    vsys_helio_kms: -300.0
+    vrot_kms: 235.0
+    inc_deg: 77.0
+satellites:
+  planes: 72
+  per_plane: 22
+  alt_km: 550.0
+  inc_deg: 53.0
+  catalogue_err_km: 2.0
+  t_sat_k: 800.0
+  ref_range_km: 550.0
+pointing_truth:
+- 0.35
+- -0.2
+- 0.08
+- 0.1
+- -0.15
+weather:
+  base_ms: 4.0
+  gusts:
+  - start: '12:10'
+    end: '12:30'
+    speed: 13.0
+  stow_limit_ms: 10.0
+  resume_limit_ms: 8.0
+  resume_hold_min: 5
+session:
+  date: '2026-11-15'
+  start: 03:30
+  end: '19:30'
+  seed: 7
+  cal_interval_min: 60
+observations:
+- id: PR1
+  type: pointing_run
+  priority: 10
+  earliest: 03:40
+  deadline: 05:25
+  params:
+    geo:
+    - 55
+    - 68
+    - 74
+    - 83
+    - 88
+    - 93
+    - 97
+    - 105
+    sun: 3
+    update_model: true
+- id: SOL1
+  type: solar_drift
+  fixed_center: 06:05
+  duration_min: 60
+  params:
+    el_offset_deg: 1.0
+- id: SOL2
+  type: solar_drift
+  fixed_center: 07:15
+  duration_min: 60
+  params:
+    el_offset_deg: -1.0
+- id: SAT1
+  type: sat_track
+  priority: 8
+  earliest: 07:55
+  deadline: '10:30'
+  params:
+    min_el: 25.0
+    max_el_range:
+    - 50
+    - 68
+    max_az_rate: 2.5
+- id: HITRK
+  type: hi_track_nod
+  priority: 7
+  earliest: '10:50'
+  deadline: '13:45'
+  duration_min: 150
+  min_duration_min: 40
+  params:
+    cycle_min: 5
+    dump_s: 30
+- id: HIDFT
+  type: hi_stare
+  fixed_center: transit
+  duration_min: 240
+  params:
+    dump_s: 60
+- id: PR2
+  type: pointing_run
+  priority: 5
+  earliest: '18:05'
+  deadline: '19:25'
+  params:
+    geo:
+    - 55
+    - 68
+    - 74
+    - 83
+    - 88
+    - 93
+    - 97
+    - 105
+    sun: 0
+    update_model: false
+constraints:
+  min_el: 20.0
+  max_el: 85.0
+  sun_avoid_deg: 15.0
+  slew_margin_s: 120
+  hi_min_el: 30.0
