@@ -1,0 +1,154 @@
+{
+ "wall_s": 2.8119280338287354,
+ "pointing": [
+  {
+   "ob": "PR1",
+   "t0": 1794744120.0,
+   "t1": 1794744435.2000008,
+   "n_meas": 8,
+   "rms_resid_before_deg": 0.322824541599193,
+   "rms_resid_after_fit_deg": 0.004725277819508933,
+   "params_before": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "params_fit": [
+    0.4180050844981174,
+    -0.22278488890928122,
+    0.027080954991562642,
+    0.0746912996688789,
+    -0.148043984655932
+   ],
+   "params_err": [
+    0.041694900494181536,
+    0.01114270205271942,
+    0.03583542661402649,
+    0.010901679850222555,
+    0.010111891717643137
+   ],
+   "map_rms_true_before_deg": 0.38403667322343377,
+   "map_rms_true_after_deg": 0.03604757658239512,
+   "applied": true
+  }
+ ],
+ "tracking": [
+  {
+   "ob": "HITRK",
+   "label": "M31 nod",
+   "rms_true_deg": 0.041690958184368444,
+   "p95_true_deg": 0.06184292177902442,
+   "rms_following_deg": 0.0014262128257747637,
+   "n": 7500
+  },
+  {
+   "ob": "HITRK",
+   "label": "M31 nod",
+   "rms_true_deg": 0.045693414868815556,
+   "p95_true_deg": 0.06711909499301648,
+   "rms_following_deg": 0.0013629052111057722,
+   "n": 15300
+  }
+ ],
+ "stow": [
+  {
+   "t0": 1794747172.0,
+   "t1": 1794748172.0,
+   "reason": "wind during HITRK"
+  }
+ ],
+ "ob_log": [
+  {
+   "id": "PR1",
+   "type": "pointing_run",
+   "t0": 1794744120.0,
+   "t1": 1794744435.2000008,
+   "status": "DONE"
+  },
+  {
+   "id": "HITRK",
+   "type": "hi_track_nod",
+   "t0": 1794746200.0,
+   "t1": 1794747172.0,
+   "status": "ABORTED_WIND",
+   "got_s": 750.0,
+   "remaining_s": 1618.0
+  },
+  {
+   "id": "HITRK",
+   "type": "hi_track_nod",
+   "t0": 1794748172.0,
+   "t1": 1794749896.0,
+   "status": "DONE",
+   "got_s": 1530.0,
+   "remaining_s": 14.0
+  }
+ ],
+ "reduced": {
+  "hi": {
+   "tracked ON/OFF": {
+    "mode": "switch",
+    "beam_fwhm_deg": 9.849767692553108,
+    "n_on": 45,
+    "n_off": 31,
+    "effective_on_hours": 0.375,
+    "off_separation_deg": 16.491136175394043,
+    "off_leakage": 0.00042135580413811134,
+    "vsys_helio_kms": -289.85470684038756,
+    "vsys_err_kms": 48.73513809049777,
+    "vsys_lsr_kms": -285.4555202841672,
+    "vrot_sini_kms": 238.0240196965965,
+    "vrot_err_kms": 24.87805991643649,
+    "width_kms": 476.048039393193,
+    "rms_k": 0.018257768238815458,
+    "rms_predicted_k": 0.01970608351451821,
+    "rms_ratio": 0.9265041541798135,
+    "integrated_k_kms": 9.236275246252939,
+    "integrated_err_k_kms": 3.102120959966308,
+    "int_ul3_k_kms": 9.306362879898924,
+    "int_ul3_jy_kms": 26439.800397458333,
+    "integrated_expected_k_kms": 11.052269307483781,
+    "integrated_ratio": 0.8356903898458948,
+    "line_snr": 2.9774065439257575,
+    "ideal_line_snr": 8.180921223544189,
+    "fit_chi_per_dof": 1.0163338147048386,
+    "tsys_k": 100.61173066868864,
+    "fit_ranges_kms": [
+     [
+      -880.0,
+      -130.0
+     ],
+     [
+      60.0,
+      280.0
+     ]
+    ],
+    "doppler_corr_range_kms": [
+     -10.736214828428832,
+     -10.663825603652255
+    ],
+    "rfi_channels_flagged": 0,
+    "milky_way_residual_lsr_kms": -1.600813443779658,
+    "literature_vsys_helio_kms": -300.0,
+    "checks": {
+     "systemic velocity within 25 km/s of -300 (literature)": true,
+     "M31 line detected: integrated S/N >= 5": false,
+     "measured noise within 40 % of the radiometer prediction": true,
+     "Milky Way residual found near 0 km/s LSR and kept apart from M31": true,
+     "OFF position >= 1.5 beam widths from M31 (else leakage corrected)": true
+    },
+    "blocks": [
+     "HITRK",
+     "HITRK_r1"
+    ],
+    "mode_used": "switch",
+    "n_dumps": 76,
+    "origin": "SIM",
+    "on_source_hours": 0.375
+   }
+  },
+  "errors": {}
+ }
+}
