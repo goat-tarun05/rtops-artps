@@ -1,0 +1,114 @@
+{"t": 1794713400.0, "utc": "03:30:00", "level": "INFO", "src": "TCS", "msg": "session start; 7 blocks queued"}
+{"t": 1794714000.0, "utc": "03:40:00", "level": "INFO", "src": "TCS", "msg": "BEGIN PR1 (pointing_run) planned 720..1990 s"}
+{"t": 1794714052.0, "utc": "03:40:52", "level": "INFO", "src": "TCS", "msg": "slew Sun az-scan start done in 52 s"}
+{"t": 1794714063.9, "utc": "03:41:03", "level": "WARN", "src": "PTG", "msg": "Sun az-scan: no usable peak"}
+{"t": 1794714069.9, "utc": "03:41:09", "level": "INFO", "src": "TCS", "msg": "slew Sun el-scan start done in 6 s"}
+{"t": 1794714095.8000002, "utc": "03:41:35", "level": "INFO", "src": "TCS", "msg": "slew GEO+105E az-scan start done in 14 s"}
+{"t": 1794714107.7000003, "utc": "03:41:47", "level": "WARN", "src": "PTG", "msg": "GEO+105E az-scan: no usable peak"}
+{"t": 1794714115.7000003, "utc": "03:41:55", "level": "INFO", "src": "TCS", "msg": "slew GEO+105E el-scan start done in 8 s"}
+{"t": 1794714127.6000004, "utc": "03:42:07", "level": "WARN", "src": "PTG", "msg": "GEO+105E el-scan: no usable peak"}
+{"t": 1794714137.6000004, "utc": "03:42:17", "level": "INFO", "src": "TCS", "msg": "slew GEO+97E az-scan start done in 10 s"}
+{"t": 1794714149.5000005, "utc": "03:42:29", "level": "WARN", "src": "PTG", "msg": "GEO+97E az-scan: no usable peak"}
+{"t": 1794714157.5000005, "utc": "03:42:37", "level": "INFO", "src": "TCS", "msg": "slew GEO+97E el-scan start done in 8 s"}
+{"t": 1794714169.4000006, "utc": "03:42:49", "level": "WARN", "src": "PTG", "msg": "GEO+97E el-scan: no usable peak"}
+{"t": 1794714177.4000006, "utc": "03:42:57", "level": "INFO", "src": "TCS", "msg": "slew GEO+93E az-scan start done in 8 s"}
+{"t": 1794714189.3000007, "utc": "03:43:09", "level": "WARN", "src": "PTG", "msg": "GEO+93E az-scan: no usable peak"}
+{"t": 1794714197.3000007, "utc": "03:43:17", "level": "INFO", "src": "TCS", "msg": "slew GEO+93E el-scan start done in 8 s"}
+{"t": 1794714229.2000008, "utc": "03:43:49", "level": "INFO", "src": "TCS", "msg": "slew Sun az-scan start done in 20 s"}
+{"t": 1794714241.1000009, "utc": "03:44:01", "level": "WARN", "src": "PTG", "msg": "Sun az-scan: no usable peak"}
+{"t": 1794714247.1000009, "utc": "03:44:07", "level": "INFO", "src": "TCS", "msg": "slew Sun el-scan start done in 6 s"}
+{"t": 1794714277.000001, "utc": "03:44:37", "level": "INFO", "src": "TCS", "msg": "slew GEO+88E az-scan start done in 18 s"}
+{"t": 1794714288.900001, "utc": "03:44:48", "level": "WARN", "src": "PTG", "msg": "GEO+88E az-scan: no usable peak"}
+{"t": 1794714296.900001, "utc": "03:44:56", "level": "INFO", "src": "TCS", "msg": "slew GEO+88E el-scan start done in 8 s"}
+{"t": 1794714318.8000011, "utc": "03:45:18", "level": "INFO", "src": "TCS", "msg": "slew GEO+83E az-scan start done in 10 s"}
+{"t": 1794714330.7000012, "utc": "03:45:30", "level": "WARN", "src": "PTG", "msg": "GEO+83E az-scan: no usable peak"}
+{"t": 1794714338.7000012, "utc": "03:45:38", "level": "INFO", "src": "TCS", "msg": "slew GEO+83E el-scan start done in 8 s"}
+{"t": 1794714362.6000013, "utc": "03:46:02", "level": "INFO", "src": "TCS", "msg": "slew GEO+74E az-scan start done in 12 s"}
+{"t": 1794714374.5000014, "utc": "03:46:14", "level": "WARN", "src": "PTG", "msg": "GEO+74E az-scan: no usable peak"}
+{"t": 1794714382.5000014, "utc": "03:46:22", "level": "INFO", "src": "TCS", "msg": "slew GEO+74E el-scan start done in 8 s"}
+{"t": 1794714404.4000015, "utc": "03:46:44", "level": "INFO", "src": "TCS", "msg": "slew GEO+68E az-scan start done in 10 s"}
+{"t": 1794714416.3000016, "utc": "03:46:56", "level": "WARN", "src": "PTG", "msg": "GEO+68E az-scan: no usable peak"}
+{"t": 1794714424.3000016, "utc": "03:47:04", "level": "INFO", "src": "TCS", "msg": "slew GEO+68E el-scan start done in 8 s"}
+{"t": 1794714450.2000017, "utc": "03:47:30", "level": "INFO", "src": "TCS", "msg": "slew GEO+55E az-scan start done in 14 s"}
+{"t": 1794714470.1000018, "utc": "03:47:50", "level": "INFO", "src": "TCS", "msg": "slew GEO+55E el-scan start done in 8 s"}
+{"t": 1794714518.000002, "utc": "03:48:38", "level": "INFO", "src": "TCS", "msg": "slew Sun az-scan start done in 36 s"}
+{"t": 1794714529.900002, "utc": "03:48:49", "level": "WARN", "src": "PTG", "msg": "Sun az-scan: no usable peak"}
+{"t": 1794714535.900002, "utc": "03:48:55", "level": "INFO", "src": "TCS", "msg": "slew Sun el-scan start done in 6 s"}
+{"t": 1794714547.800002, "utc": "03:49:07", "level": "INFO", "src": "PTG", "msg": "PR1: residual rms 0.944 deg -> 0.071 deg; model APPLIED"}
+{"t": 1794714547.800002, "utc": "03:49:07", "level": "INFO", "src": "TCS", "msg": "END PR1: DONE"}
+{"t": 1794720634.0, "utc": "05:30:34", "level": "INFO", "src": "TCS", "msg": "slew cold sky done in 54 s"}
+{"t": 1794720694.0, "utc": "05:31:34", "level": "INFO", "src": "CAL", "msg": "ku calibration CAL_KU_0119 stored"}
+{"t": 1794720694.0, "utc": "05:31:34", "level": "INFO", "src": "TCS", "msg": "BEGIN SOL1 (solar_drift) planned 7500..11100 s"}
+{"t": 1794720760.0, "utc": "05:32:40", "level": "INFO", "src": "TCS", "msg": "slew SOL1 stare position done in 66 s"}
+{"t": 1794724500.0, "utc": "06:35:00", "level": "INFO", "src": "TCS", "msg": "END SOL1: DONE"}
+{"t": 1794724846.0, "utc": "06:40:46", "level": "INFO", "src": "TCS", "msg": "slew cold sky done in 66 s"}
+{"t": 1794724906.0, "utc": "06:41:46", "level": "INFO", "src": "CAL", "msg": "ku calibration CAL_KU_0189 stored"}
+{"t": 1794724906.0, "utc": "06:41:46", "level": "INFO", "src": "TCS", "msg": "BEGIN SOL2 (solar_drift) planned 11700..15300 s"}
+{"t": 1794724978.0, "utc": "06:42:58", "level": "INFO", "src": "TCS", "msg": "slew SOL2 stare position done in 72 s"}
+{"t": 1794728700.0, "utc": "07:45:00", "level": "INFO", "src": "TCS", "msg": "END SOL2: DONE"}
+{"t": 1794732992.0, "utc": "08:56:32", "level": "INFO", "src": "TCS", "msg": "slew cold sky done in 62 s"}
+{"t": 1794733052.0, "utc": "08:57:32", "level": "INFO", "src": "CAL", "msg": "ku calibration CAL_KU_0325 stored"}
+{"t": 1794733052.0, "utc": "08:57:32", "level": "INFO", "src": "TCS", "msg": "BEGIN SAT1 (sat_track) planned 19850..20390 s"}
+{"t": 1794733096.0, "utc": "08:58:16", "level": "INFO", "src": "TCS", "msg": "slew STARLINK-SIM-1059 acquisition done in 44 s"}
+{"t": 1794733640.0, "utc": "09:07:20", "level": "INFO", "src": "TCS", "msg": "END SAT1: DONE"}
+{"t": 1794740800.0, "utc": "11:06:40", "level": "INFO", "src": "CAL", "msg": "hi calibration CAL_HI_0455 stored"}
+{"t": 1794740800.0, "utc": "11:06:40", "level": "INFO", "src": "TCS", "msg": "BEGIN HITRK (hi_track_nod) planned 27590..36590 s"}
+{"t": 1794740818.0, "utc": "11:06:58", "level": "INFO", "src": "TCS", "msg": "slew HITRK M31 ON done in 18 s"}
+{"t": 1794740994.0, "utc": "11:09:54", "level": "INFO", "src": "TCS", "msg": "slew HITRK ON done in 4 s"}
+{"t": 1794741308.0, "utc": "11:15:08", "level": "INFO", "src": "TCS", "msg": "slew HITRK OFF done in 14 s"}
+{"t": 1794741622.0, "utc": "11:20:22", "level": "INFO", "src": "TCS", "msg": "slew HITRK ON done in 14 s"}
+{"t": 1794741936.0, "utc": "11:25:36", "level": "INFO", "src": "TCS", "msg": "slew HITRK OFF done in 14 s"}
+{"t": 1794742250.0, "utc": "11:30:50", "level": "INFO", "src": "TCS", "msg": "slew HITRK ON done in 14 s"}
+{"t": 1794742564.0, "utc": "11:36:04", "level": "INFO", "src": "TCS", "msg": "slew HITRK OFF done in 14 s"}
+{"t": 1794742878.0, "utc": "11:41:18", "level": "INFO", "src": "TCS", "msg": "slew HITRK ON done in 14 s"}
+{"t": 1794743192.0, "utc": "11:46:32", "level": "INFO", "src": "TCS", "msg": "slew HITRK OFF done in 14 s"}
+{"t": 1794743506.0, "utc": "11:51:46", "level": "INFO", "src": "TCS", "msg": "slew HITRK ON done in 14 s"}
+{"t": 1794743820.0, "utc": "11:57:00", "level": "INFO", "src": "TCS", "msg": "slew HITRK OFF done in 14 s"}
+{"t": 1794744134.0, "utc": "12:02:14", "level": "INFO", "src": "TCS", "msg": "slew HITRK ON done in 14 s"}
+{"t": 1794744448.0, "utc": "12:07:28", "level": "INFO", "src": "TCS", "msg": "slew HITRK OFF done in 14 s"}
+{"t": 1794744718.0, "utc": "12:11:58", "level": "INFO", "src": "TCS", "msg": "END HITRK: ABORTED_WIND"}
+{"t": 1794744718.0, "utc": "12:11:58", "level": "WARN", "src": "SAFETY", "msg": "STOW: wind during HITRK (wind 11.1 m/s)"}
+{"t": 1794744754.0, "utc": "12:12:34", "level": "INFO", "src": "TCS", "msg": "slew to stow done in 36 s"}
+{"t": 1794746074.0, "utc": "12:34:34", "level": "INFO", "src": "SAFETY", "msg": "wind below 8.0 m/s for 5 min: resuming"}
+{"t": 1794746074.0, "utc": "12:34:34", "level": "INFO", "src": "SCHED", "msg": "HITRK re-queued with 88 min remaining"}
+{"t": 1794746174.0, "utc": "12:36:14", "level": "INFO", "src": "CAL", "msg": "hi calibration CAL_HI_0544 stored"}
+{"t": 1794746174.0, "utc": "12:36:14", "level": "INFO", "src": "TCS", "msg": "BEGIN HITRK (hi_track_nod) planned 32964..36900 s"}
+{"t": 1794746208.0, "utc": "12:36:48", "level": "INFO", "src": "TCS", "msg": "slew HITRK M31 ON done in 34 s"}
+{"t": 1794746368.0, "utc": "12:39:28", "level": "INFO", "src": "TCS", "msg": "slew HITRK ON done in 4 s"}
+{"t": 1794746682.0, "utc": "12:44:42", "level": "INFO", "src": "TCS", "msg": "slew HITRK OFF done in 14 s"}
+{"t": 1794746996.0, "utc": "12:49:56", "level": "INFO", "src": "TCS", "msg": "slew HITRK ON done in 14 s"}
+{"t": 1794747310.0, "utc": "12:55:10", "level": "INFO", "src": "TCS", "msg": "slew HITRK OFF done in 14 s"}
+{"t": 1794747624.0, "utc": "13:00:24", "level": "INFO", "src": "TCS", "msg": "slew HITRK ON done in 14 s"}
+{"t": 1794747938.0, "utc": "13:05:38", "level": "INFO", "src": "TCS", "msg": "slew HITRK OFF done in 14 s"}
+{"t": 1794748252.0, "utc": "13:10:52", "level": "INFO", "src": "TCS", "msg": "slew HITRK ON done in 14 s"}
+{"t": 1794748566.0, "utc": "13:16:06", "level": "INFO", "src": "TCS", "msg": "slew HITRK OFF done in 14 s"}
+{"t": 1794748880.0, "utc": "13:21:20", "level": "INFO", "src": "TCS", "msg": "slew HITRK ON done in 14 s"}
+{"t": 1794749194.0, "utc": "13:26:34", "level": "INFO", "src": "TCS", "msg": "slew HITRK OFF done in 14 s"}
+{"t": 1794749508.0, "utc": "13:31:48", "level": "INFO", "src": "TCS", "msg": "slew HITRK ON done in 14 s"}
+{"t": 1794749822.0, "utc": "13:37:02", "level": "INFO", "src": "TCS", "msg": "slew HITRK OFF done in 14 s"}
+{"t": 1794750136.0, "utc": "13:42:16", "level": "INFO", "src": "TCS", "msg": "slew HITRK ON done in 14 s"}
+{"t": 1794750286.0, "utc": "13:44:46", "level": "INFO", "src": "TCS", "msg": "END HITRK: DONE"}
+{"t": 1794750620.0, "utc": "13:50:20", "level": "INFO", "src": "CAL", "msg": "hi calibration CAL_HI_0618 stored"}
+{"t": 1794750620.0, "utc": "13:50:20", "level": "INFO", "src": "TCS", "msg": "BEGIN HIDFT (hi_stare) planned 37440..51840 s"}
+{"t": 1794750646.0, "utc": "13:50:46", "level": "INFO", "src": "TCS", "msg": "slew HIDFT stare position done in 26 s"}
+{"t": 1794765240.0, "utc": "17:54:00", "level": "INFO", "src": "TCS", "msg": "END HIDFT: DONE"}
+{"t": 1794765900.0, "utc": "18:05:00", "level": "INFO", "src": "TCS", "msg": "BEGIN PR2 (pointing_run) planned 52620..53560 s"}
+{"t": 1794765982.0, "utc": "18:06:22", "level": "INFO", "src": "TCS", "msg": "slew GEO+105E az-scan start done in 82 s"}
+{"t": 1794766001.9, "utc": "18:06:41", "level": "INFO", "src": "TCS", "msg": "slew GEO+105E el-scan start done in 8 s"}
+{"t": 1794766023.8000002, "utc": "18:07:03", "level": "INFO", "src": "TCS", "msg": "slew GEO+97E az-scan start done in 10 s"}
+{"t": 1794766043.7000003, "utc": "18:07:23", "level": "INFO", "src": "TCS", "msg": "slew GEO+97E el-scan start done in 8 s"}
+{"t": 1794766063.6000004, "utc": "18:07:43", "level": "INFO", "src": "TCS", "msg": "slew GEO+93E az-scan start done in 8 s"}
+{"t": 1794766083.5000005, "utc": "18:08:03", "level": "INFO", "src": "TCS", "msg": "slew GEO+93E el-scan start done in 8 s"}
+{"t": 1794766105.4000006, "utc": "18:08:25", "level": "INFO", "src": "TCS", "msg": "slew GEO+88E az-scan start done in 10 s"}
+{"t": 1794766125.3000007, "utc": "18:08:45", "level": "INFO", "src": "TCS", "msg": "slew GEO+88E el-scan start done in 8 s"}
+{"t": 1794766147.2000008, "utc": "18:09:07", "level": "INFO", "src": "TCS", "msg": "slew GEO+83E az-scan start done in 10 s"}
+{"t": 1794766167.1000009, "utc": "18:09:27", "level": "INFO", "src": "TCS", "msg": "slew GEO+83E el-scan start done in 8 s"}
+{"t": 1794766191.000001, "utc": "18:09:51", "level": "INFO", "src": "TCS", "msg": "slew GEO+74E az-scan start done in 12 s"}
+{"t": 1794766210.900001, "utc": "18:10:10", "level": "INFO", "src": "TCS", "msg": "slew GEO+74E el-scan start done in 8 s"}
+{"t": 1794766232.8000011, "utc": "18:10:32", "level": "INFO", "src": "TCS", "msg": "slew GEO+68E az-scan start done in 10 s"}
+{"t": 1794766252.7000012, "utc": "18:10:52", "level": "INFO", "src": "TCS", "msg": "slew GEO+68E el-scan start done in 8 s"}
+{"t": 1794766278.6000013, "utc": "18:11:18", "level": "INFO", "src": "TCS", "msg": "slew GEO+55E az-scan start done in 14 s"}
+{"t": 1794766298.5000014, "utc": "18:11:38", "level": "INFO", "src": "TCS", "msg": "slew GEO+55E el-scan start done in 8 s"}
+{"t": 1794766310.4000015, "utc": "18:11:50", "level": "INFO", "src": "PTG", "msg": "PR2: residual rms 0.134 deg -> 0.026 deg; model not applied (verification)"}
+{"t": 1794766310.4000015, "utc": "18:11:50", "level": "INFO", "src": "TCS", "msg": "END PR2: DONE"}
+{"t": 1794766310.4000015, "utc": "18:11:50", "level": "INFO", "src": "TCS", "msg": "session complete"}
