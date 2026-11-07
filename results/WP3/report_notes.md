@@ -1,0 +1,6 @@
+# WP3: Pointing Model Mathematics
+
+* **The 5-Parameter Array:** The model corrects mechanical flaws by fitting `IA` (azimuth zero offset), `IE` (elevation zero offset), `NPAE` (non-perpendicularity of the axes), and `AN`/`AW` (North and West tilt of the azimuth axis).
+* **Iterative Inverse (`sky_to_enc`):** To point the physical boresight at a specific sky target, the software must command the raw motor encoders. Because the mathematical offset (`delta`) depends on the true elevation angle, the equation is non-linear. The `for _ in range(4)` loop uses fixed-point iteration to quickly narrow down the exact required encoder position.
+* **Least Squares Fit (`fit`):** The code computes the difference between the true sky position of a source (like the Sun or a GEO beacon) and the raw encoder reading. It builds a design matrix `X` using trigonometry (like `tan(Elevation)` for the NPAE term) and uses `np.linalg.lstsq` to solve for all 5 parameters simultaneously.
+* **Degeneracy Check:** As long as the pointing run includes targets at different elevations (which is why PR1 mixes high-elevation GEO beacons with the lower-elevation Sun), the design matrix condition number stays low. This prevents the mathematical parameters from tangling with one another during the fit.
